@@ -75,9 +75,7 @@ WSGI_APPLICATION = 'puppy_store.wsgi.application'
 
 # REST_FRAMEWORK
 REST_FRAMEWORK = {
-    'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly',
-    ],
+    'DEFAULT_PERMISSION_CLASSES': [],
     'TEST_REQUEST_DEFAULT_FORMAT': 'json',
 }
 
